@@ -1,17 +1,24 @@
 .uperwrapper {
   width: 100%;
-  background-color: rgb(203, 203, 203);
   display: flex;
   justify-content: center;
   align-items: center;
   min-height: 100vh;
+  background: url('/src/assets/background.avif') no-repeat;
+  background-size: cover;
+  background-position:  center;
+  /* image change  */
 }
 .wrapper {
   width: 420px;
-  background-color: rgba(221, 160, 221, 0.949);
+  background:transparent;
   color: #fff;
   border-radius: 10px;
   padding: 30px 40px;
+  border:2px solid rgba(235, 232, 232, 0.2);
+  backdrop-filter: blur(20px);
+  box-shadow:0 0 10px rgba(0,0,0,.2);
+
 }
 .wrapper h1 {
   font-size: 36px;
@@ -83,7 +90,8 @@
 .wrapper .register-link{
     font-size: 14.5px;
     text-align: center;
-    margin-top: 20px;
+    margin: 20px 0 15px;
+
 }
 
 .register-link p a{
@@ -95,4 +103,13 @@
 }
 .register-link p a:hover{
     text-decoration: underline;
+}
+.text{
+  padding:12px 0px;
+  text-transform: capitalize;
+  /* color:red; */
+  font-weight: 500;
+ text-decoration: underline;
+ margin-top: -20px;
+ margin-bottom: 10px;
 }

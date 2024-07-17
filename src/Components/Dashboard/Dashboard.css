@@ -1,0 +1,10 @@
+.col-auto {
+  background-color: #138082;
+}
+.nav-link {
+  transition: all ease 0.3s;
+}
+.nav-link:hover {
+  background-color: #ffffff38;
+  transform: scale(1.03);
+}
